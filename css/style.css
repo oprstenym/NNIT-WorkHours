@@ -1,0 +1,37 @@
+@import url('../js/dojox/grid/resources/Grid.css');
+@import url('../js/dojox/grid/resources/claroGrid.css');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    font-family:Verdana;
+    font-size: 12px;
+}
+ 
+#appLayout {
+    height: 100%;
+}
+#leftCol {
+    width: 14em;
+}
+
+a {
+    text-decoration:none;
+}
+
+td.linestyle0 {
+    background-color:#cccccc;
+}
+
+td.linestyle1 {
+    background-color:#eeeeee;
+}
+
+.dijitButton .dijitButtonNode {
+    width:100px;
+}
+
+.dojoxGrid table { margin: 0; } html, body { width: 100%; height: 100%;
+    margin: 0; }
